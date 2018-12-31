@@ -1,79 +1,76 @@
-﻿# W16：[数据转换](https://github.com/OS-Q/W16)
+﻿# W16：[通信中继](https://github.com/OS-Q/W16)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 归属转换节点：[M4](https://github.com/OS-Q/M4)
+#### 归属桥接管道：[M4](https://github.com/OS-Q/M4)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ## [平台描述](https://github.com/OS-Q/W16/wiki) 
 
-数据转换.包括协议封装和相关加密处理
+通信中继平台，用于中继各种通信数据
 
 ### [共用资源](https://github.com/OS-Q/W16/wiki/) 
 
-#### software
-
-
-#### hardware
-
 
 ---
 
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
+- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
+
+- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
 
 ## [包含设备](https://github.com/OS-Q/W16/wiki) 
 
-#### D106：[私有协议封装](https://github.com/OS-Q/D106)
+#### D106：[NULL](https://github.com/OS-Q/D106)
 
 
 
-#### D107：[数据加解密](https://github.com/OS-Q/D107)
+#### D107：[NULL](https://github.com/OS-Q/D107)
 
 
 
-#### D108：[信用凭证](https://github.com/OS-Q/D108)
+#### D108：[NULL](https://github.com/OS-Q/D108)
 
 
 
-#### D109：[随机序列](https://github.com/OS-Q/D109)
+#### D109：[NULL](https://github.com/OS-Q/D109)
 
 
 
-#### D110：[AES](https://github.com/OS-Q/D110)
+#### D110：[NULL](https://github.com/OS-Q/D110)
 
 
 
-#### D111：[RSA](https://github.com/OS-Q/D111)
+#### D111：[NULL](https://github.com/OS-Q/D111)
 
 
 
-#### D112：[HASH](https://github.com/OS-Q/D112)
+#### D112：[NULL](https://github.com/OS-Q/D112)
 
 
 
-## [同级平台](https://github.com/OS-Q/M4/wiki)
+## [同级平台](https://github.com/OS-Q/M4/wiki) 
 
-#### W14：[信号转换](https://github.com/OS-Q/W14)
+#### W14：[通道转换](https://github.com/OS-Q/W14)
 
-用于转换物理通信方式，实现跨领域传输
+物理通信通道或通信协议的改变
 
-#### W15：[信号中继](https://github.com/OS-Q/W15)
+#### W15：[通道扩展](https://github.com/OS-Q/W15)
 
-用于增强信号传输的空间距离
+通信通道数量和适配的种类扩充
 
-#### -> W16：[数据转换](https://github.com/OS-Q/W16)
+#### W16：[通信中继](https://github.com/OS-Q/W16)
 
-用于封装原始数据，或者对数据进行加密
+通信信号在传输过程中进行补强
 
-#### W17：[数据过滤](https://github.com/OS-Q/W17)
+#### W17：[专用模块](https://github.com/OS-Q/W17)
 
-用于过滤无价值数据，提高通信效率
+用于适配他人设备专用桥接模块
 
 
 ---
 
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-###  qitas@qitas.cn
-#### 2018-12-5
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2018-12-31
 
