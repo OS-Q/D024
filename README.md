@@ -1,4 +1,4 @@
-﻿# W16：[通信中继](https://github.com/OS-Q/W16)
+﻿# W16：[通信增强](https://github.com/OS-Q/W16)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,10 +8,9 @@
 
 ## [平台描述](https://github.com/OS-Q/W16/wiki) 
 
-通信中继平台，用于中继各种通信数据
+通信增强平台，用于中继各种通信数据
 
-### [共用资源](https://github.com/OS-Q/W16/wiki/) 
-
+### [资源](OS-Q/)
 
 ---
 
@@ -21,13 +20,13 @@
 
 ## [包含设备](https://github.com/OS-Q/W16/wiki) 
 
-#### D106：[NULL](https://github.com/OS-Q/D106)
+#### D106：[GSM通信设备](https://github.com/OS-Q/D106)
 
+基于2G蜂窝网的通信设备，较强的通信适配能力和广域的传输能力
 
+#### D107：[NB-IoT设备](https://github.com/OS-Q/D107)
 
-#### D107：[NULL](https://github.com/OS-Q/D107)
-
-
+基于NB-IoT网络的通信设备，具有低功耗和广域的传输能力
 
 #### D108：[NULL](https://github.com/OS-Q/D108)
 
@@ -59,7 +58,7 @@
 
 通信通道数量和适配的种类扩充
 
-#### W16：[通信中继](https://github.com/OS-Q/W16)
+#### W16：[通信增强](https://github.com/OS-Q/W16)
 
 通信信号在传输过程中进行补强
 
