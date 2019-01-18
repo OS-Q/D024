@@ -1,4 +1,4 @@
-﻿# W16：[通信增强](https://github.com/OS-Q/W16)
+﻿# W16：[无线中继](https://github.com/OS-Q/W16)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,7 +8,7 @@
 
 ## [平台描述](https://github.com/OS-Q/W16/wiki) 
 
-通信增强平台，用于中继各种通信数据
+无线中继平台，用于中继各种通信管道数据流
 
 ### [资源](OS-Q/)
 
@@ -20,19 +20,19 @@
 
 ## [包含设备](https://github.com/OS-Q/W16/wiki) 
 
-#### D106：[GSM通信设备](https://github.com/OS-Q/D106)
-
-基于2G蜂窝网的通信设备，较强的通信适配能力和广域的传输能力
-
-#### D107：[NB-IoT设备](https://github.com/OS-Q/D107)
-
-基于NB-IoT网络的通信设备，具有低功耗和广域的传输能力
-
-#### D108：[NULL](https://github.com/OS-Q/D108)
+#### D106：[Sub1GHz中继](https://github.com/OS-Q/D106)
 
 
 
-#### D109：[NULL](https://github.com/OS-Q/D109)
+#### D107：[蓝牙中继](https://github.com/OS-Q/D107)
+
+
+
+#### D108：[WiFi中继](https://github.com/OS-Q/D108)
+
+
+
+#### D109：[LoRa中继](https://github.com/OS-Q/D109)
 
 
 
@@ -50,26 +50,26 @@
 
 ## [同级平台](https://github.com/OS-Q/M4/wiki) 
 
-#### W14：[通道转换](https://github.com/OS-Q/W14)
+#### W14：[有线转换](https://github.com/OS-Q/W14)
 
-物理通信通道或通信协议的改变
+有线通信通道或通信协议的切换
 
-#### W15：[通道扩展](https://github.com/OS-Q/W15)
+#### W15：[短距通道](https://github.com/OS-Q/W15)
 
-通信通道数量和适配的种类扩充
+短距数据无线通信调制桥接管道
 
-#### -> W16：[通信增强](https://github.com/OS-Q/W16)
+#### -> W16：[无线中继](https://github.com/OS-Q/W16)
 
-通信信号在传输过程中进行补强
+无线通信数据空中无差补强中继
 
-#### W17：[专用模块](https://github.com/OS-Q/W17)
+#### W17：[广域通道](https://github.com/OS-Q/W17)
 
-用于适配他人设备专用桥接模块
+用于广域覆盖无线通信连接接入
 
 
 ---
 
 ####  © qitas@qitas.cn
 ###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####  @ 2018-12-31
+####  @ 2019-1-18
 
