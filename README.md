@@ -27,11 +27,12 @@
         * D106：[LED](https://github.com/OS-Q/D106)
         * D107：[LCD](https://github.com/OS-Q/D107)
         * D108：[WEB](https://github.com/OS-Q/D108)
-        * D109：[WEB](https://github.com/OS-Q/D109)
-        * D110：[WEB](https://github.com/OS-Q/D110)
+        * D109：[SMTP](https://github.com/OS-Q/D109)
+        * D110：[MQTT](https://github.com/OS-Q/D110)
         * D111：[WEB](https://github.com/OS-Q/D111)
-        * D112：[WEB](https://github.com/OS-Q/D112)
+        * D112：[eMail](https://github.com/OS-Q/D112)
 	* W17：[数据存储](https://github.com/OS-Q/W17)
+	* W18：[数据处理](https://github.com/OS-Q/W18)
 
 ### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/W16)
 ####  2019-8-23
