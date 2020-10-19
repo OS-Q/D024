@@ -1,38 +1,17 @@
-﻿# [显示交互](https://github.com/OS-Q/W16)
+﻿# [touch panel](https://github.com/OS-Q/D024)
 
-[![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-#### 归属WiFi终端：[M4](https://github.com/OS-Q/M4)
-#### 关联解决方案：[S16](https://github.com/OS-Q/S16)
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+### [workspace描述](https://github.com/OS-Q/D024/wiki)
 
-[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> S[60]
+[touch panel](https://github.com/OS-Q/D024)
 
-## [工程描述](https://github.com/OS-Q/W16/wiki)
+* XPT2046
 
-[显示交互](https://github.com/OS-Q/W16)归纳整理了显示交互相关的arduino库
+四线电阻式触摸屏，主要由两层镀有ITO镀层的薄膜组成。其中一层在屏幕的左右边缘各有一条垂直总线，另一层在屏幕的底部和顶部各有一条水平总线，如果在一层薄膜的两条总线上施加电压，在ITO镀层上就会形成均匀电场。当使用者触击触摸屏时，触击点处两层薄膜就会接触，在另一层薄膜上就可以测量到接触点的电压值。
 
-## [工程资源](https://github.com/OS-Q/W16)
+* ADS7843
 
-* [资源](src/)
-* [文档](docs/)
-* [工程](project/)
+4线电阻触摸屏转换接口芯片。它是一款具有同步串行接口的12位取样模数转换器。
 
-### [拓扑结构](https://github.com/OS-Q/W16)
-
-* M4：[WiFi终端](https://github.com/OS-Q/M4)
-	* W14：[数据获取](https://github.com/OS-Q/W14)
-	* W15：[无线通信](https://github.com/OS-Q/W15)
-	* W16：[显示交互](https://github.com/OS-Q/W16)
-        * D106：[LED](https://github.com/OS-Q/D106)
-        * D107：[LCD](https://github.com/OS-Q/D107)
-        * D108：[WEB](https://github.com/OS-Q/D108)
-        * D109：[SMTP](https://github.com/OS-Q/D109)
-        * D110：[MQTT](https://github.com/OS-Q/D110)
-        * D111：[WEB](https://github.com/OS-Q/D111)
-        * D112：[eMail](https://github.com/OS-Q/D112)
-	* W17：[数据存储](https://github.com/OS-Q/W17)
-	* W18：[数据处理](https://github.com/OS-Q/W18)
-
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/W16)
-####  2019-8-23
+### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/D024)
